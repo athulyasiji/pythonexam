@@ -1,0 +1,8 @@
+str = input(print("enter a string"))
+uppercase = str.upper()
+upper_counts = {}
+for upper in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    count = uppercase.count(upper)
+    upper_counts[upper] = count
+print(input("The upper counts are"))
+print(upper_counts)

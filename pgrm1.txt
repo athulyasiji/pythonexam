@@ -1,0 +1,14 @@
+import math
+a=int(input("enter the amount"))
+p=int(input("enter the principal amount"))
+r=int(input("enter the rate of intrest"))
+n=int(input("enter the number of years"))
+print("calculate the amount:")
+h=1
+f=100
+amount=(p*(h+r)/f)
+print("amount is =",amount)
+print(input("calculate the compound interest:"))
+print(input("enter the compound interest"))
+intrest=amount-p
+print("intrest is =",intrest)

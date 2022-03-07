@@ -1,0 +1,8 @@
+str = input(print("enter a string"))
+lowercase = str.lower()
+lower_counts = {}
+for lower in "abcdefghijklmnopqrstuvwxyz":
+    count = lowercase.count(lower)
+    lower_counts[lower] = count
+print(input("The lower counts are"))
+print(lower_counts)

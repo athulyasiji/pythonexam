@@ -1,0 +1,2 @@
+from calculate import uppercase
+from calculate import lowercase
